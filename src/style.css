@@ -30,3 +30,18 @@ html, body
         align-items: center;
     }
 }
+
+input
+{
+    border: 0.1rem solid black;
+}
+
+.invalid
+{
+    border-color: red;
+}
+
+.valid
+{
+    border-color: green;
+}

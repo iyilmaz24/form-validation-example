@@ -5,9 +5,8 @@ import './style.css';
 // the form's skeleton HTML
 const formHTML = `<form>
 <input type="email" name="email" id="email" placeholder="Email">
-<input type="text" name="country" id="country" placeholder="Country">
-<input type="text" name="zip-code" id="zip-code" pattern="d{5}" placeholder="Zip Code">
-<input type="password" name="password" id="password" placeholder="Password">
+<input type="text" name="zip-code" id="zip-code" pattern="[0-9]{5}" placeholder="Zip Code">
+<input type="password" name="password" id="password" minlength="8" placeholder="Password">
 <input type="password" name="password-confirm" id="password-confirm" placeholder="Confirm Password">
 <button type="submit" id="submit-button">Submit</button>
 </form>`;
